@@ -6,6 +6,15 @@
 #Retrofit
 Android和Java平台下类型安全的HTTP客户端
 
+[toc]
+[XMH-UpdateTime]:20160617
+
+##翻译之前
+1. 实例化Retrofit时必须调用`addRetrofitFactory()`制定转换器
+1. 如果需要用到转换器`GsonConverterFactory`的话需要依赖`compile 'com.squareup.retrofit2:converter-gson:2.0.1'`
+1. [Retrofit使用实例Demo下载]
+[Retrofit使用实例Demo下载]:https://github.com/xmh19936688/NetWorkProject
+
 ##简介
 Retrofit将HTTP API转换为Java接口
 ```
